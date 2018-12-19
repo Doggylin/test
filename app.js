@@ -13,4 +13,4 @@ app.use(async (ctx,next) => {
     let str = fs.createReadStream('web/categories.html')
     ctx.response.body = str
 })
-app.listen(3000)
+app.listen(8080)
